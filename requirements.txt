@@ -1,1 +1,3 @@
 
+install tweepy
+install google-cloud-vision
