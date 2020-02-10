@@ -18,4 +18,4 @@ Add the GOOGLE_CREDENTIAL_ENVIRONMENT into your path
   ```
 # Result
 ![result_image](https://github.com/BUEC500C1/twitter-summarizer-Jie1995tbc/raw/master/result_image.png)
-The image will be download and save the loacl computer, then the Google vision api will start to analyze it.
+The Twitter API will get the url. Users can use these links to download and save images on your device. Then use google vision api to describe images.
