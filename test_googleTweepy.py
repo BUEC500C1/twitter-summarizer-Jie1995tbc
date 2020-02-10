@@ -33,6 +33,7 @@ def tweepy_api(input_q):
 
 # Instantiates a client
 def google_vision_api():
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'goooglevision.json'
     client = vision.ImageAnnotatorClient()
     file_name = 'getfromtweepy.jpg'
     file_path = r'/Users/lujie/PycharmProjects/test1'
