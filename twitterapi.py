@@ -20,7 +20,6 @@ def tweepy_api(queue):
     new_tweets = api.user_timeline(screen_name = queue,count=50)
     public_tweets.extend(new_tweets)
 
-    #take the first 5 tweets with image and sent to google vision api for image interpretation
     count = 6
 
     result = ''
