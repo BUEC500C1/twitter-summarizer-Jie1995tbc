@@ -16,6 +16,11 @@ Add the GOOGLE_CREDENTIAL_ENVIRONMENT into your path
 
   eg: export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/[FILE_NAME].json"
   ```
+# Continuous Integrate
+Since googleAPI keys doesn't upload here, once provided it's valid. The pytest work and pass on my local laptop when the api json file under the same directory.
+
 # Result
-![result_image](https://github.com/BUEC500C1/twitter-summarizer-Jie1995tbc/raw/master/result_image.png)
-The Twitter API will get the url. Users can use these links to download and save images on your device. Then use google vision api to describe images.
+Here is the sample from the twitterapi.py file. Url from the twitter and then google vision api analyze this url and get the result.
+
+![result_image](https://github.com/BUEC500C1/twitter-summarizer-Jie1995tbc/blob/master/getURLandVisionResult.png)
+
